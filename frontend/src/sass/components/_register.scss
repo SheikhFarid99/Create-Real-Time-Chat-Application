@@ -1,0 +1,63 @@
+.register,.login{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card{
+        .card-header{
+            h3{
+                text-align: center;
+                color: #fff;
+            }
+        }
+        .card-body{
+            .form-group{
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+                span{
+                    text-align: center;
+                    a{
+                        color: #fff;
+                    }
+                }
+                .file-image{
+                    display: flex;
+                    .image{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        border : 1px solid rgb(199, 195, 195);
+                        overflow: hidden;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    .file{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .form-control{
+                            display: none;
+                        }
+                        label{
+                            background-color: #0a0e1585;
+                            padding: 8px;
+                            margin-bottom: 0px;
+                            width: 120px;
+                            text-align: center;
+                            border-radius: 50px;
+                            margin-left: 10px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
