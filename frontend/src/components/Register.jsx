@@ -27,7 +27,7 @@ const Register = () => {
         if(e.target.files.length !==0){
             setstate({
                 ...state,
-                [e.target.name] : e.target.value
+                [e.target.name] : e.target.files[0]
             })
         }
 
