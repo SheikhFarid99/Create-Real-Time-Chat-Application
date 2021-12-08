@@ -1,8 +1,15 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import { Link } from "react-router-dom";
-import { useDispatch } from "react-redux";
+import { useDispatch,useSelector } from "react-redux";
 import { userRegister } from "../store/actions/authAction";
-const Register = () => {
+import { useAlert } from "react-alert";
+import { SUCCESS_MESSAGE_CLEAR,ERROR_CLEAR } from "../store/types/authType";
+const Register = ({history}) => {
+
+    const alert = useAlert();
+    const {loading,successMessage,error,authenticate,myInfo} = useSelector(state=>state.auth);
+
+    console.log(myInfo);
 
     const dispatch = useDispatch();
 
@@ -56,6 +63,20 @@ const Register = () => {
         dispatch(userRegister(formData));
 
     }
+
+    useEffect(()=>{
+        if(authenticate){
+            history.push('/')
+        }
+        if(successMessage){
+            alert.success(successMessage);
+            dispatch({type : SUCCESS_MESSAGE_CLEAR})
+        }
+        if(error){
+            error.map(err=>alert.error(err));
+            dispatch({type : ERROR_CLEAR})
+        }
+    },[successMessage,error])
 
     return (
         <div className="register">

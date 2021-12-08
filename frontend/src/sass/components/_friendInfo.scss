@@ -1,0 +1,75 @@
+.friend-info{
+    padding: 12px 15px;
+    display: flex;
+    justify-content: start;
+    height: 100%;
+    flex-direction: column;
+    .image-name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .image{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            margin-bottom: 5px;
+        }
+        .active-user{
+            color: rgb(27, 238, 27);
+            margin-bottom: 3px;
+        }
+        .name{
+            h4{
+                font-weight: 600;
+                color: var(--text-color);
+                margin-bottom: 8px;
+            }
+        }
+    }
+    .others{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+        .custom-chat,.privacy,.media{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 4px 0px;
+            color: var(--text-color);
+            cursor: pointer;
+            h3{
+                font-size: 14px;
+            }
+            label{
+                cursor: pointer;
+                color: var(--text-color);
+            }
+        }
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 5px;
+        overflow-y: auto;
+        display: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    #gallery{
+        display: none;
+    }
+    #gallery:checked ~ .gallery{
+        display: grid;
+    }
+}
