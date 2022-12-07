@@ -14,20 +14,20 @@
   
   ![CHOOSE!](messenger.jpg)
   
- # Following tools are used to develop the application
+# Following tools are used to develop the application
     
-    # Frontend Tools
+  # Frontend Tools
     
-    - React Js
-    - Redux
-    - socket.io-client
-    - Sass
+  - React Js
+  - Redux
+  - socket.io-client
+  - Sass
     
-    # Backend Tools
+  # Backend Tools
     
-    - Programming languages : JavaScript
-    - Node Js
-    - Frameworks : Express Js
-    - Databases : MongoDB
-    - Socket.io
+  - Programming languages : JavaScript
+  - Node Js
+  - Frameworks : Express Js
+  - Databases : MongoDB
+  - Socket.io
    
