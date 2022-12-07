@@ -16,14 +16,14 @@
   
 # Following tools are used to develop the application
     
-  # Frontend Tools
+  ## Frontend Tools
     
   - React Js
   - Redux
   - socket.io-client
   - Sass
     
-  # Backend Tools
+  ## Backend Tools
     
   - Programming languages : JavaScript
   - Node Js
