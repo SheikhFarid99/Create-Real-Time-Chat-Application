@@ -29,4 +29,5 @@
     - Node Js
     - Frameworks : Express Js
     - Databases : MongoDB
+    - Socket.io
    
