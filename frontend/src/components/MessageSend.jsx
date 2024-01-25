@@ -1,5 +1,8 @@
 import React from 'react'
-import { AiFillGift, BiMessageAltEdit, BsPlusCircle, RiGalleryLine } from 'react-icons/all'
+import { AiFillGift} from 'react-icons/ai'
+import { BiMessageAltEdit } from 'react-icons/bi'
+import {BsPlusCircle } from 'react-icons/bs'
+import { RiGalleryLine } from 'react-icons/ri'
 
 const MessageSend = ({ inputHendle, newMessage, sendMessage, emojiSend, ImageSend }) => {
 

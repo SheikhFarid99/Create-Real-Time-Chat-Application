@@ -1,5 +1,10 @@
 import React, { useEffect, useState, useRef } from 'react'
-import { BiSearch, BsThreeDots, FaEdit, IoLogOutOutline } from "react-icons/all";
+import { BiSearch} from "react-icons/bi";
+
+import {BsThreeDots} from "react-icons/bs";
+import {FaEdit } from "react-icons/fa";
+import {  IoLogOutOutline } from "react-icons/io5";
+
 import Friends from './Friends';
 import RightSide from './RightSide';
 import { io } from "socket.io-client";

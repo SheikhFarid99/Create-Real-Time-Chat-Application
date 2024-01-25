@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "server":"nodemon backend/server.js",
+    "client-intall":"npm intall --force --prefix frontend",
+    "socket-intall":"npm install --force --prefix socket",
+    "socket":"npm run socket --prefix socket",
     "client":"npm start --prefix frontend",
-    "dev":"concurrently \" npm run server \" \" npm run client \""
+    "client-fix":"npm audit fix --force --prefix frontend",
+    "dev":"concurrently \" npm run server \" \" npm run socket \" \" npm run client \""
   },
   "keywords": [],
   "author": "",

@@ -1,6 +1,7 @@
 import React from 'react';
 import moment from 'moment';
-import { HiOutlineCheckCircle, RiCheckboxCircleFill } from "react-icons/all";
+import { HiOutlineCheckCircle } from "react-icons/hi";
+import {RiCheckboxCircleFill } from "react-icons/ri";
 
 const Friends = (props) => {
     const { fndInfo, msgInfo } = props.friend;

@@ -1,7 +1,9 @@
 import React from 'react'
 import { useSelector } from "react-redux";
 import moment from 'moment';
-import { HiOutlineCheckCircle, RiCheckboxCircleFill } from "react-icons/all";
+import { HiOutlineCheckCircle} from "react-icons/hi";
+
+import { RiCheckboxCircleFill } from "react-icons/ri";
 
 const Message = ({ message, currentfriend, scrollRef, typingMessage }) => {
 
