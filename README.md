@@ -60,5 +60,13 @@
   ### Run this command in root folder
     npm run dev
 
+## if application doesn't run
+  ## 1. again run this command in frontend folder
+      npm audit fix --force
+
+## Again Run project
+
+  ### Run this command in root folder
+    npm run dev
 
 ### How to make this application visit  [Learn with Project](https://www.youtube.com/playlist?list=PLTyDDs5BP9JTf_f6zCjSS96CUA9vxXfIY)
