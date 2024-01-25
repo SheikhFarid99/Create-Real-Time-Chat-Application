@@ -39,23 +39,17 @@
 
     Git clone https://github.com/SheikhFarid99/Create-Real-Time-Chat-Application.git
 
-## Backend install => open vs code editor terminal and run this command
+## Backend install
      npm install --force
 
 ## Frontend install
-  ### 1. open package.json file in frontend folder
-  ### 2. remove node-sass package
-  ### 3. Open terminal and run this command
     npm run client-install
-  ### 4. then
+    
     npm run client-fix
-  ### 5. then
-      cd frontend
-      npm i sass
   
-## socket install
+## Socket install
     npm run socket-install
 
-## finally run project
+## Run project
     npm run dev
-### How to make this application  [visit](https://www.youtube.com/playlist?list=PLTyDDs5BP9JTf_f6zCjSS96CUA9vxXfIY)
+### How to make this application visit  [Learn with Project](https://www.youtube.com/playlist?list=PLTyDDs5BP9JTf_f6zCjSS96CUA9vxXfIY)
