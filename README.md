@@ -40,16 +40,25 @@
     Git clone https://github.com/SheikhFarid99/Create-Real-Time-Chat-Application.git
 
 ## Backend install
+
+  ### Run this command in root folder
      npm install --force
 
 ## Frontend install
-    npm run client-install
-    
-    npm run client-fix
+
+  ### Run this command in frontend folder
+    npm install --force
+    npm audit fix --force
   
 ## Socket install
+
+  ### Run this command in root folder
     npm run socket-install
 
 ## Run project
+
+  ### Run this command in root folder
     npm run dev
+
+
 ### How to make this application visit  [Learn with Project](https://www.youtube.com/playlist?list=PLTyDDs5BP9JTf_f6zCjSS96CUA9vxXfIY)
