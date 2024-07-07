@@ -42,12 +42,12 @@
 ## Backend install
 
   ### Run this command in root folder
-     npm install --force
+     npm install --legacy-peer-deps
 
 ## Frontend install
 
   ### Run this command in frontend folder
-    npm install --force
+    npm install --legacy-peer-deps
     npm audit fix --force
   
 ## Socket install
